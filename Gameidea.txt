@@ -1,0 +1,10 @@
+Start		->	Menu
+Menu		->	City, Settings, Scores
+Settings	->	Menu
+Scores		->	Menu
+City		->	Game, Shop, Inventory, Menu
+Shop		->	City
+Inventory	->	City
+Game		->	Loot, Dead, City
+Loot		->	City, Game
+Dead		->	City, Game
