@@ -1,3 +1,11 @@
-#Title {
-left: 100px;
+#MainT {
+position: absolute;
+left: 500px;
+bottom: 500px;
+}
+
+#Menu {
+position: absolute;
+left: 500px;
+bottom: 500px;
 }
