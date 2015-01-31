@@ -8,7 +8,7 @@
 
 <body background="http://homeasnika.com/wp-content/uploads/2012/09/city-buildings-cartoon.jpg">
 <div id="Username">
-<input type='text' id='Username-input' placeholder='Username'></input>
+<input type='text' id='Username-input' placeholder='Username' title="Input Username Here"></input>
 <button id="Submit-Button">Submit Tests</button>
 </div>
 
@@ -20,8 +20,8 @@
 <script type="text/javascript">
 $('#Submit-Button').click(function(){
 alert('Alert');
-var Username=$('#Username-input').text();
-$('#Welcome-Username').text(Username);
+var Username=$('#Username-input').val();
+$('#Welcome-Username').val(Username);
 $('#Welcome-Text').show();
 });
 </script>
