@@ -9,3 +9,15 @@ position: absolute;
 left: 500px;
 bottom: 500px;
 }
+
+#AboutUs {
+position: absolute;
+bottom: 100px;
+right: 100px;
+}
+
+#AccountSetup {
+position: absolute;
+bottom: 100px;
+left: 100px;
+}
